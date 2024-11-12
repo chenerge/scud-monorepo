@@ -1,0 +1,30 @@
+{
+  "name": "@/screens",
+  "version": "0.0.0",
+  "main": "index.d.ts",
+  "module": "index.d.ts",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@types/react": "~18.2.45",
+    "typescript": "~5.3.3"
+  },
+  "dependencies": {
+    "@/components": "*",
+    "@/shared": "*",
+    "react-native-keyboard-aware-scroll-view": "^0.9.5"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.74.5"
+  },
+  "files": [
+    "button",
+    "index.js",
+    "index.d.ts"
+  ]
+}
