@@ -1287,7 +1287,7 @@
   dependencies:
     tslib "2"
 
-"@gluestack-ui/accordion@^1.0.7":
+"@gluestack-ui/accordion@^1.0.8":
   version "1.0.8"
   resolved "https://registry.npmmirror.com/@gluestack-ui/accordion/-/accordion-1.0.8.tgz#29486b7ce125a880abf7d55e966f04987989e2d1"
   integrity sha512-Hcq/mJ6zDaQuqh/2pVbJB8UbB5vyNSYmuRc5dFP5DFZredywPrkEpz2awJodaQRCMBIh8jm6NEYfndMIuRFBTA==
@@ -5885,7 +5885,7 @@ expect@^29.0.0, expect@^29.7.0:
     jest-message-util "^29.7.0"
     jest-util "^29.7.0"
 
-expo-asset@^10.0.10, expo-asset@~10.0.10:
+expo-asset@~10.0.10:
   version "10.0.10"
   resolved "https://registry.npmmirror.com/expo-asset/-/expo-asset-10.0.10.tgz#9e6e02c1a6ec3d19b50d5e615e4dd8e5cc30e857"
   integrity sha512-0qoTIihB79k+wGus9wy0JMKq7DdenziVx3iUkGvMAy2azscSgWH6bd2gJ9CGnhC6JRd3qTMFBL0ou/fx7WZl7A==
