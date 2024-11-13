@@ -10,32 +10,32 @@ type GuestLayoutProps = {
 };
 
 export default function GuestLayout(props: GuestLayoutProps) {
-  const videoPath = '/videos/aigei.mp4';  // 直接引用 public 中的资源路径
+  const videoPath = 'public/videos/aigei.mp4';  // 直接引用 public 中的资源路径
 
   const VideoBackground = () => {
     // if (Platform.OS === 'web') {
-    //   return (
-    //     <div style={{ 
-    //       position: 'fixed', // 使用 fixed 定位，确保视频铺满整个屏幕
-    //       top: 0,
-    //       left: 0,
-    //       width: '100%',
-    //       height: '100%',
-    //       overflow: 'hidden',
-    //       zIndex: -1, // 确保视频在背景
-    //     }}>
-    //     <video autoPlay loop muted style={{
-    //     width: '100%',
-    //     height: '100%',objectFit: 'cover' }}>
-    //       <source src={videoPath} type="video/mp4" />
-    //     </video>
-    //     </div>
-    //   );  
+      return (
+        <div style={{ 
+          position: 'fixed', // 使用 fixed 定位，确保视频铺满整个屏幕
+          top: 0,
+          left: 0,
+          width: '100%',
+          height: '100%',
+          overflow: 'hidden',
+          zIndex: -1, // 确保视频在背景
+        }}>
+        <video autoPlay loop muted style={{
+        width: '100%',
+        height: '100%',objectFit: 'cover' }}>
+          <source src={videoPath} type="video/mp4" />
+        </video>
+        </div>
+      );  
     // }else{  
       // const videoSource = require("@/shared/assets/videos/aigei.mp4");
 
-    return (
-      <VStack></VStack>
+    // return (
+    //   <VStack></VStack>
       // <Video
       //   // source={videoSource}
       //   style={styles.video}
@@ -44,13 +44,13 @@ export default function GuestLayout(props: GuestLayoutProps) {
       //   isMuted
       //   resizeMode={ResizeMode.COVER}
       // />
-    );
+  //  );
   //  }
   };
   return (
     <SafeAreaView className="w-full h-full">
       
-      {/* <VideoBackground /> */}
+      <VideoBackground />
         <Box className="w-full h-full flex-1">
           <ScrollView
             className="w-full h-full"

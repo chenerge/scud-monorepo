@@ -2,7 +2,8 @@ const gluestackPlugin = require("@gluestack-ui/nativewind-utils/tailwind-plugin"
 
 module.exports = {
   content: [
-    "../../packages/components/**/*.{ts,tsx}",
+    "../../packages/components/**/*.{js,jsx,ts,tsx}",
+    "../../packages/screens/**/*.{js,jsx,ts,tsx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   presets: [require("nativewind/preset")],
